@@ -1,0 +1,70 @@
+body {
+  padding-top: 50px;
+}
+
+
+/* Elemento | file:///D:/Kessler/bootstrap-3.3.7%20(1)/bootstrap-3.3.7/docs/examples/starter-template/index.html#myCarousel */
+
+div.container:nth-child(2) {
+  margin-top: 0%;
+}
+
+
+@media (min-width: 480px){
+  .starter-template {
+    padding: 20px 15px;
+    margin-top: 3rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15rem;
+  }    
+}
+
+.starter-template{
+  margin-top: 5rem;
+}
+
+.resolucion{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-inverse{
+  background-color: #000;
+  padding-bottom: 1rem;
+}
+
+.textonav {
+  padding-top: 3rem;
+}
+
+.caja{
+  margin-top: 3%;
+}
+
+.estiloboton{
+  background-color: #686868;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+.estiloinput{
+  margin-top: 2rem;
+  border-radius: 50px;
+}
+
+@media (min-width: 768px){
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .centrado{
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
